@@ -1,5 +1,6 @@
 # Tic-Tac-Toe
 This project was created by following this tutorial: https://reactjs.org/tutorial/tutorial.html#setup-for-the-tutorial 
+An online version of this app can be accessed here: https://kvo189.github.io/tic-tac-toe/
 
 ## These are the features of this app: 
 1. Lets you play tic-tac-toe,
