@@ -1,6 +1,26 @@
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
-  margin: 20px;
+  margin: 0;
+}
+
+
+.navbar {
+  background-color: rgb(28,35,49);
+  height: 40px;
+  line-height: 40px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color:gray;
 }
 
 ol, ul {
@@ -47,6 +67,7 @@ ol, ul {
 .game {
   display: flex;
   flex-direction: row;
+  margin: 20px;
 }
 
 .game-info {

@@ -2,6 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+class Navbar extends React.Component {
+  render (){
+    return (
+      <div className="navbar">
+        <a href="https://github.com/kvo189/tic-tac-toe">View On Github</a>
+      </div>
+    );
+  }
+}
+
 function Square(props) {
   return (
     <button className={"square" + (props.highlighted ? ' highlighted' : '')} onClick={props.onClick}>
@@ -36,7 +46,7 @@ class Board extends React.Component {
   render() {
     return (
       <div>
-        {this.generateBoard()};
+        {this.generateBoard()}
       </div>
     );
   }
@@ -117,21 +127,24 @@ class Game extends React.Component {
       status = 'Next player: ' + (this.state.xIsNext ? 'X': 'O');
     }
     return (
-      <div className="game">
-        <div className="game-board">
-          <Board 
-            winningSquares={calculateWinner(current.squares).winningSquares}
-            squares={current.squares}
-            onClick={(i) => this.handleClick(i)}
-          />
-        </div>
-        <div className="game-info">
-          <div>{status}</div>
-          <br></br>
-          <button onClick={() => this.handleHistorySort()}>
-            Toggle Move History Order ({this.state.historyAscending ? 'Ascending' : 'Descending'})
-          </button>
-          <ol>{this.state.historyAscending ? moves : moves.reverse()}</ol>
+      <div>
+        <Navbar/>
+        <div className="game">
+          <div className="game-board">
+            <Board 
+              winningSquares={calculateWinner(current.squares).winningSquares}
+              squares={current.squares}
+              onClick={(i) => this.handleClick(i)}
+            />
+          </div>
+          <div className="game-info">
+            <div>{status}</div>
+            <br></br>
+            <button onClick={() => this.handleHistorySort()}>
+              Toggle Move History Order ({this.state.historyAscending ? 'Ascending' : 'Descending'})
+            </button>
+            <ol>{this.state.historyAscending ? moves : moves.reverse()}</ol>
+          </div>
         </div>
       </div>
     );
