@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tic-tac-toe/static/css/main.b69d976e.chunk.css",
+    "main.css": "/tic-tac-toe/static/css/main.2076718a.chunk.css",
     "main.js": "/tic-tac-toe/static/js/main.c450096d.chunk.js",
     "main.js.map": "/tic-tac-toe/static/js/main.c450096d.chunk.js.map",
     "runtime-main.js": "/tic-tac-toe/static/js/runtime-main.f4158612.js",
@@ -8,15 +8,15 @@
     "static/js/2.b102e267.chunk.js": "/tic-tac-toe/static/js/2.b102e267.chunk.js",
     "static/js/2.b102e267.chunk.js.map": "/tic-tac-toe/static/js/2.b102e267.chunk.js.map",
     "index.html": "/tic-tac-toe/index.html",
-    "precache-manifest.ae79c1fe47c83311c0527a1915471150.js": "/tic-tac-toe/precache-manifest.ae79c1fe47c83311c0527a1915471150.js",
+    "precache-manifest.f7030c772a40933484c08202e8be3fbc.js": "/tic-tac-toe/precache-manifest.f7030c772a40933484c08202e8be3fbc.js",
     "service-worker.js": "/tic-tac-toe/service-worker.js",
-    "static/css/main.b69d976e.chunk.css.map": "/tic-tac-toe/static/css/main.b69d976e.chunk.css.map",
+    "static/css/main.2076718a.chunk.css.map": "/tic-tac-toe/static/css/main.2076718a.chunk.css.map",
     "static/js/2.b102e267.chunk.js.LICENSE.txt": "/tic-tac-toe/static/js/2.b102e267.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f4158612.js",
     "static/js/2.b102e267.chunk.js",
-    "static/css/main.b69d976e.chunk.css",
+    "static/css/main.2076718a.chunk.css",
     "static/js/main.c450096d.chunk.js"
   ]
 }
