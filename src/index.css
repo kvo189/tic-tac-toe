@@ -3,7 +3,6 @@ body {
   margin: 0;
 }
 
-
 .navbar {
   background-color: rgb(28,35,49);
   height: 40px;
@@ -67,7 +66,13 @@ ol, ul {
 .game {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   margin: 20px;
+}
+
+.game-board {
+  margin-bottom: 20px;
 }
 
 .game-info {
